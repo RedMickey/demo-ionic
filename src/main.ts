@@ -10,3 +10,7 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
+
+/*setInterval(() => {
+  console.log(123); console.log(1234); console.log(12345); 
+}, 2000);*/
